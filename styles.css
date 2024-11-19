@@ -114,6 +114,61 @@ body {
   border: 3px solid #3882f6;
 }
 
+/* Quote */
+.quote {
+  padding: 80px 0;
+  background-color: #e5e7eb;
+}
+
+.quote .container {
+  max-width: 780px;
+}
+
+.quote blockquote {
+  font: italic 200 36px 'Roboto', sans-serif;
+  color: #1f2937;
+}
+
+.quote p {
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Form */
+.form {
+  background-color: #f9faf8;
+  color: #f9faf8;
+  overflow: auto;
+}
+
+.form .container {
+  margin: 80px auto;
+  padding: 40px 80px;
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.form button {
+  color: #f9faf8;
+  font-weight: 500;
+  font-size: 16px;
+  background: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid #f9faf8;
+  padding: 7px 25px;
+}
 
 /* Footer */
 .footer {
